@@ -25,7 +25,7 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container text-center">
             <header id="main-header">
                 <div class="row no-gutters">
                     <div class="col-lg-4">
@@ -38,14 +38,14 @@
                                     class="d-flex flex-row justify-content-between align-items-center"
                                 >
                                     <h1 class="display-4">Eric Kleiman</h1>
-                                    <div class="d-none d-md-block">
+                                    <!-- <div class="d-none d-md-block">
                                         <a
                                             href="http://twitter.com"
                                             class="text-white"
                                         >
                                             <i class="fab fa-twitter"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         <a
                                             href="https://www.linkedin.com/in/eric-kleiman-9ab0064/"
@@ -73,9 +73,10 @@
                                 </div>
                             </div>
 
-                            <div class="p-4 bg-black">
-                                Vice President, Editorial at GCI Health
-                                <p class="text-white">
+                            <div class="pt-3 bg-black">
+                                <h4>Vice President, Editorial at GCI Health</h4>
+                                
+                                <p class=" text-white">
                                     <i class="fas fa-map-marker-alt"></i>
                                     New York, New York, United States
                                 </p>
@@ -135,11 +136,27 @@
                     </div>
                 </div>
             </header>
+            <!-- class="p-5 bg-dark text-white"> -->
+
+            <div id="main-footer" class="p-3 bg-dark text-white">
+                <div class="row flex justify-content-center">
+                    <div class="col-md-6">
+                        <a href="#" class="btn btn-outline-light">
+                            <i class="fas fa-cloud"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
 
             <!-- About -->
             <div id="about">
                 <div class="card card-body bg-primary text-white py-5">
                     <h2>Welcome To My Page</h2>
+                   
+                </div>
+
+                <div class="card card-body py-5">
+                    <h3>About Me:</h3>
                     <p class="lead">
                         I'm a senior communications professional with a
                         demonstrated history of shaping compelling strategies
@@ -148,9 +165,6 @@
                         Senate communications director and senior speechwriter
                         to two of President Obama's cabinet members.
                     </p>
-                </div>
-
-                <div class="card card-body py-5">
                     <h3 class="pl-3">My Skills:</h3>
 
                     <ul class="list-group list-group-flush">
@@ -178,18 +192,12 @@
             <div id="resume">
                 <div class="card card-body bg-success text-white py-5">
                     <h2>My Resume</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Nihil, ut!
-                    </p>
+
                 </div>
 
                 <div class="card card-body py-5">
                     <h3>Where Have I Worked?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloremque similique saepe inventore rem vitae esse.
-                    </p>
+                </br>
                     <div class="card-deck">
                         <div class="card">
                             <div class="card-body">
@@ -272,17 +280,13 @@
             <div id="work">
                 <div class="card card-body bg-warning text-white py-5">
                     <h2>My Work</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Nihil, ut!
-                    </p>
+                    
                 </div>
 
                 <div class="card card-body py-5">
                     <h3>What Have I Built?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Laborum nostrum repudiandae debitis, nam iste amet.
+                    <p class="lead">
+                        Probably blogs, articles, podcasts, links 
                     </p>
                     <div class="row no-gutters">
                         <div class="col-md-3">
@@ -392,92 +396,45 @@
             <div id="contact">
                 <div class="card card-body bg-danger text-white py-5">
                     <h2>Contact</h2>
-                    <p class="lead">
-                        You can write me the message and leave your contact
-                        information, and I will reach you out !
-                    </p>
                 </div>
 
                 <div class="card card-body py-5">
-                    <h3>Get In Touch</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Error quos illo, dicta id voluptates enim.
+                    <p class="lead">
+                        The best way to reach me out is to write me email or
+                        message on sosial media!
                     </p>
-                    <a href="mailto:maslov.mykola@gmail.com">Send Email</a>
-                    <form
-                        action="mailto:maslov.mykola@gmail.com"
-                        method="GET"
-                        enctype="text/plain"
-                    >
-                        <div class="form-group">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span
-                                        class="input-group-text bg-danger text-white"
-                                    >
-                                        <i class="fas fa-user"></i>
-                                    </span>
-                                </div>
-                                <input
-                                    type="text"
-                                    class="form-control bg-dark text-white"
-                                    placeholder="Name"
-                                />
-                            </div>
+                </br>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-danger text-white">
+                                <i class="fas fa-envelope"></i>
+                            </span>
                         </div>
-
-                        <div class="form-group">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span
-                                        class="input-group-text bg-danger text-white"
-                                    >
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                </div>
-                                <input
-                                    type="email"
-                                    class="form-control bg-dark text-white"
-                                    placeholder="Email"
-                                />
-                            </div>
+                        <a
+                            href="mailto:Eric.Kleiman@gcihealth.com@gmail.com"
+                            class="form-control bg-dark text-white"
+                            >Eric.Kleiman@gcihealth.com</a
+                        >
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-danger text-white">
+                                <i class="fas fa-phone"></i>
+                            </span>
                         </div>
+                        <a
+                            href="tel:+1##########"
+                            class="form-control bg-dark text-white"
+                            >+1 (###) ###-####</a
+                        >
+                    </div>
 
-                        <div class="form-group">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span
-                                        class="input-group-text bg-danger text-white"
-                                    >
-                                        <i class="fas fa-pencil-alt"></i>
-                                    </span>
-                                </div>
-                                <textarea
-                                    class="form-control bg-dark text-white"
-                                    placeholder="Name"
-                                ></textarea>
-                            </div>
-                        </div>
-
-                        <input
-                            type="submit"
-                            value="Submit"
-                            class="btn btn-danger btn-block btn-lg"
-                        />
-                    </form>
                 </div>
             </div>
 
             <!-- FOOTER -->
-            <footer id="main-footer" class="p-5 bg-dark text-white">
-                <div class="row">
-                    <div class="col-md-6">
-                        <a href="#" class="btn btn-outline-light">
-                            <i class="fas fa-cloud"></i> Download Resume
-                        </a>
-                    </div>
-                </div>
+            <footer id="main-footer" class="p-3 bg-dark text-white ">
+               <p>© 2022 Eric Kleiman</p>
             </footer>
         </div>
 
@@ -497,7 +454,6 @@
             crossorigin="anonymous"
         ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
         <script>
             $('.port-item').click(function () {
                 $('.collapse').collapse('hide');
